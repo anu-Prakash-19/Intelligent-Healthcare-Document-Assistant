@@ -1,0 +1,72 @@
+# ============================================================
+# Virtual environment - NEVER copy this into a Docker image.
+# The Dockerfile runs `pip install -r requirements.txt` fresh
+# inside the container, so this is 100% redundant weight.
+# ============================================================
+venv/
+.venv/
+env/
+
+# ============================================================
+# Model checkpoints - these are DATA, not code. Mount them as
+# a volume in docker-compose.yml instead of baking them into
+# the image (see note below).
+# ============================================================
+ner-bc5cdr-finetuned/
+ner-bc5cdr-finetuned-1epoch/
+models/
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# ============================================================
+# Runtime data folders - also DATA, not code. Mount as volumes.
+# ============================================================
+uploads/
+extracted_text/
+api_documents/
+annotations/
+phase11_results/
+ner_comparison_results/
+.qdrant/
+
+# ============================================================
+# Python cache / bytecode
+# ============================================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# ============================================================
+# Version control / IDE
+# ============================================================
+.git/
+.gitignore
+.vscode/
+.idea/
+
+# ============================================================
+# Secrets - never bake credentials into an image layer.
+# Pass these via docker-compose's `environment:` or `env_file:`
+# instead, at container RUN time, not BUILD time.
+# ============================================================
+.env
+.env.*
+
+# ============================================================
+# Docker-related files themselves don't need to be in the
+# context sent to the daemon
+# ============================================================
+Dockerfile*
+docker-compose.yml
+.dockerignore
+
+# ============================================================
+# Misc
+# ============================================================
+*.log
+.DS_Store
+Thumbs.db

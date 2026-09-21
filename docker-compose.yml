@@ -1,0 +1,41 @@
+# ============================================================
+# Phase 17 - Local multi-container orchestration
+# ============================================================
+#
+# Runs the Streamlit UI and the FastAPI service together,
+# sharing the same local folders via bind mounts, so a document
+# processed through one interface is visible to the other.
+#
+# .env in this same directory must contain GROQ_API_KEY,
+# QDRANT_URL, QDRANT_API_KEY - docker-compose loads it
+# automatically into both services below.
+
+services:
+
+  streamlit-ui:
+    build:
+      context: .
+      dockerfile: Dockerfile.streamlit
+    ports:
+      - "8501:8501"
+    env_file:
+      - .env
+    volumes:
+      - ./uploads:/app/uploads
+      - ./extracted_text:/app/extracted_text
+      - ./annotations:/app/annotations
+      - ./api_documents:/app/api_documents
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile.api
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    volumes:
+      - ./uploads:/app/uploads
+      - ./extracted_text:/app/extracted_text
+      - ./annotations:/app/annotations
+      - ./api_documents:/app/api_documents

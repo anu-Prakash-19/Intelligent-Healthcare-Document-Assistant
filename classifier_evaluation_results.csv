@@ -1,0 +1,181 @@
+specialty,expected_label,predicted_label,correct
+Discharge Summary,Discharge Summary,Cardiology Report,False
+Discharge Summary,Discharge Summary,Discharge Summary,True
+Discharge Summary,Discharge Summary,Cardiology Report,False
+Discharge Summary,Discharge Summary,Radiology Report,False
+Discharge Summary,Discharge Summary,Cardiology Report,False
+Discharge Summary,Discharge Summary,Discharge Summary,True
+Discharge Summary,Discharge Summary,Discharge Summary,True
+Discharge Summary,Discharge Summary,Radiology Report,False
+Discharge Summary,Discharge Summary,Cardiology Report,False
+Discharge Summary,Discharge Summary,Discharge Summary,True
+Discharge Summary,Discharge Summary,Radiology Report,False
+Discharge Summary,Discharge Summary,Discharge Summary,True
+Discharge Summary,Discharge Summary,Radiology Report,False
+Discharge Summary,Discharge Summary,Discharge Summary,True
+Discharge Summary,Discharge Summary,Radiology Report,False
+Discharge Summary,Discharge Summary,Discharge Summary,True
+Discharge Summary,Discharge Summary,General Medicine,False
+Discharge Summary,Discharge Summary,Discharge Summary,True
+Discharge Summary,Discharge Summary,Discharge Summary,True
+Discharge Summary,Discharge Summary,Discharge Summary,True
+Discharge Summary,Discharge Summary,Discharge Summary,True
+Discharge Summary,Discharge Summary,Discharge Summary,True
+Discharge Summary,Discharge Summary,Cardiology Report,False
+Discharge Summary,Discharge Summary,Discharge Summary,True
+Discharge Summary,Discharge Summary,Discharge Summary,True
+Discharge Summary,Discharge Summary,General Medical Document,False
+Discharge Summary,Discharge Summary,Radiology Report,False
+Discharge Summary,Discharge Summary,General Medicine,False
+Discharge Summary,Discharge Summary,General Medical Document,False
+Discharge Summary,Discharge Summary,Radiology Report,False
+Radiology,Radiology Report,Radiology Report,True
+Radiology,Radiology Report,Radiology Report,True
+Radiology,Radiology Report,Radiology Report,True
+Radiology,Radiology Report,Radiology Report,True
+Radiology,Radiology Report,Radiology Report,True
+Radiology,Radiology Report,General Medical Document,False
+Radiology,Radiology Report,Radiology Report,True
+Radiology,Radiology Report,Radiology Report,True
+Radiology,Radiology Report,Cardiology Report,False
+Radiology,Radiology Report,General Medical Document,False
+Radiology,Radiology Report,Radiology Report,True
+Radiology,Radiology Report,Radiology Report,True
+Radiology,Radiology Report,General Medical Document,False
+Radiology,Radiology Report,Radiology Report,True
+Radiology,Radiology Report,Radiology Report,True
+Radiology,Radiology Report,General Medical Document,False
+Radiology,Radiology Report,Radiology Report,True
+Radiology,Radiology Report,Radiology Report,True
+Radiology,Radiology Report,General Medical Document,False
+Radiology,Radiology Report,Radiology Report,True
+Radiology,Radiology Report,Radiology Report,True
+Radiology,Radiology Report,Radiology Report,True
+Radiology,Radiology Report,Radiology Report,True
+Radiology,Radiology Report,Radiology Report,True
+Radiology,Radiology Report,Radiology Report,True
+Radiology,Radiology Report,Radiology Report,True
+Radiology,Radiology Report,Radiology Report,True
+Radiology,Radiology Report,General Medicine,False
+Radiology,Radiology Report,Radiology Report,True
+Radiology,Radiology Report,Radiology Report,True
+General Medicine,General Medicine,General Medicine,True
+General Medicine,General Medicine,Radiology Report,False
+General Medicine,General Medicine,Cardiology Report,False
+General Medicine,General Medicine,Cardiology Report,False
+General Medicine,General Medicine,Radiology Report,False
+General Medicine,General Medicine,General Medical Document,False
+General Medicine,General Medicine,Radiology Report,False
+General Medicine,General Medicine,General Medicine,True
+General Medicine,General Medicine,General Medicine,True
+General Medicine,General Medicine,General Medicine,True
+General Medicine,General Medicine,General Medicine,True
+General Medicine,General Medicine,Radiology Report,False
+General Medicine,General Medicine,Cardiology Report,False
+General Medicine,General Medicine,Cardiology Report,False
+General Medicine,General Medicine,General Medicine,True
+General Medicine,General Medicine,General Medicine,True
+General Medicine,General Medicine,General Medical Document,False
+General Medicine,General Medicine,Discharge Summary,False
+General Medicine,General Medicine,General Medical Document,False
+General Medicine,General Medicine,General Medicine,True
+General Medicine,General Medicine,General Medicine,True
+General Medicine,General Medicine,Cardiology Report,False
+General Medicine,General Medicine,General Medicine,True
+General Medicine,General Medicine,Radiology Report,False
+General Medicine,General Medicine,Cardiology Report,False
+General Medicine,General Medicine,Cardiology Report,False
+General Medicine,General Medicine,Radiology Report,False
+General Medicine,General Medicine,General Medicine,True
+General Medicine,General Medicine,General Medicine,True
+General Medicine,General Medicine,Radiology Report,False
+Cardiovascular / Pulmonary,Cardiology Report,Cardiology Report,True
+Cardiovascular / Pulmonary,Cardiology Report,General Medical Document,False
+Cardiovascular / Pulmonary,Cardiology Report,General Medical Document,False
+Cardiovascular / Pulmonary,Cardiology Report,General Medical Document,False
+Cardiovascular / Pulmonary,Cardiology Report,Radiology Report,False
+Cardiovascular / Pulmonary,Cardiology Report,Radiology Report,False
+Cardiovascular / Pulmonary,Cardiology Report,Radiology Report,False
+Cardiovascular / Pulmonary,Cardiology Report,Radiology Report,False
+Cardiovascular / Pulmonary,Cardiology Report,General Medical Document,False
+Cardiovascular / Pulmonary,Cardiology Report,General Medical Document,False
+Cardiovascular / Pulmonary,Cardiology Report,Cardiology Report,True
+Cardiovascular / Pulmonary,Cardiology Report,Radiology Report,False
+Cardiovascular / Pulmonary,Cardiology Report,Radiology Report,False
+Cardiovascular / Pulmonary,Cardiology Report,Cardiology Report,True
+Cardiovascular / Pulmonary,Cardiology Report,Radiology Report,False
+Cardiovascular / Pulmonary,Cardiology Report,Cardiology Report,True
+Cardiovascular / Pulmonary,Cardiology Report,Radiology Report,False
+Cardiovascular / Pulmonary,Cardiology Report,Radiology Report,False
+Cardiovascular / Pulmonary,Cardiology Report,General Medical Document,False
+Cardiovascular / Pulmonary,Cardiology Report,Radiology Report,False
+Cardiovascular / Pulmonary,Cardiology Report,General Medical Document,False
+Cardiovascular / Pulmonary,Cardiology Report,Radiology Report,False
+Cardiovascular / Pulmonary,Cardiology Report,Cardiology Report,True
+Cardiovascular / Pulmonary,Cardiology Report,Cardiology Report,True
+Cardiovascular / Pulmonary,Cardiology Report,General Medical Document,False
+Cardiovascular / Pulmonary,Cardiology Report,Cardiology Report,True
+Cardiovascular / Pulmonary,Cardiology Report,General Medical Document,False
+Cardiovascular / Pulmonary,Cardiology Report,Radiology Report,False
+Cardiovascular / Pulmonary,Cardiology Report,Radiology Report,False
+Cardiovascular / Pulmonary,Cardiology Report,General Medicine,False
+Surgery,General Medical Document,General Medical Document,True
+Surgery,General Medical Document,Cardiology Report,False
+Surgery,General Medical Document,Radiology Report,False
+Gastroenterology,General Medical Document,General Medical Document,True
+Orthopedic,General Medical Document,Radiology Report,False
+Orthopedic,General Medical Document,Discharge Summary,False
+Surgery,General Medical Document,General Medical Document,True
+Gastroenterology,General Medical Document,General Medical Document,True
+Ophthalmology,General Medical Document,General Medical Document,True
+Psychiatry / Psychology,General Medical Document,General Medicine,False
+Consult - History and Phy.,General Medical Document,Cardiology Report,False
+Ophthalmology,General Medical Document,General Medicine,False
+SOAP / Chart / Progress Notes,General Medical Document,General Medicine,False
+Surgery,General Medical Document,Radiology Report,False
+Surgery,General Medical Document,General Medical Document,True
+Surgery,General Medical Document,Radiology Report,False
+Orthopedic,General Medical Document,General Medical Document,True
+Orthopedic,General Medical Document,Radiology Report,False
+Urology,General Medical Document,Cardiology Report,False
+Gastroenterology,General Medical Document,General Medical Document,True
+Neurology,General Medical Document,Radiology Report,False
+Consult - History and Phy.,General Medical Document,Cardiology Report,False
+Surgery,General Medical Document,General Medical Document,True
+Surgery,General Medical Document,Radiology Report,False
+Obstetrics / Gynecology,General Medical Document,Radiology Report,False
+Surgery,General Medical Document,General Medical Document,True
+ENT - Otolaryngology,General Medical Document,General Medical Document,True
+Nephrology,General Medical Document,Radiology Report,False
+Psychiatry / Psychology,General Medical Document,General Medical Document,True
+Office Notes,General Medical Document,General Medical Document,True
+Dentistry,General Medical Document,General Medical Document,True
+SOAP / Chart / Progress Notes,General Medical Document,General Medical Document,True
+SOAP / Chart / Progress Notes,General Medical Document,Cardiology Report,False
+Office Notes,General Medical Document,General Medicine,False
+Pain Management,General Medical Document,Radiology Report,False
+Orthopedic,General Medical Document,Radiology Report,False
+Surgery,General Medical Document,Radiology Report,False
+Orthopedic,General Medical Document,Radiology Report,False
+Consult - History and Phy.,General Medical Document,Cardiology Report,False
+Consult - History and Phy.,General Medical Document,Radiology Report,False
+Neurology,General Medical Document,General Medical Document,True
+Nephrology,General Medical Document,Cardiology Report,False
+Gastroenterology,General Medical Document,Cardiology Report,False
+Surgery,General Medical Document,General Medical Document,True
+Nephrology,General Medical Document,General Medical Document,True
+Consult - History and Phy.,General Medical Document,Cardiology Report,False
+Orthopedic,General Medical Document,Radiology Report,False
+Gastroenterology,General Medical Document,Radiology Report,False
+Surgery,General Medical Document,General Medical Document,True
+Gastroenterology,General Medical Document,General Medical Document,True
+Neurosurgery,General Medical Document,General Medical Document,True
+Surgery,General Medical Document,General Medical Document,True
+Surgery,General Medical Document,General Medical Document,True
+Surgery,General Medical Document,General Medical Document,True
+Podiatry,General Medical Document,General Medical Document,True
+Surgery,General Medical Document,General Medical Document,True
+Pediatrics - Neonatal,General Medical Document,General Medicine,False
+Bariatrics,General Medical Document,General Medicine,False
+Consult - History and Phy.,General Medical Document,Discharge Summary,False
+Gastroenterology,General Medical Document,General Medical Document,True
